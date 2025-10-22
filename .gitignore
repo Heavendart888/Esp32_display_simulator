@@ -1,0 +1,38 @@
+# .gitignore
+
+# --------------------
+# Environment/Build
+# --------------------
+# Virtual environment folder
+venv/
+.env
+
+# --------------------
+# Operating System
+# --------------------
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# --------------------
+# Python
+# --------------------
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Distribution/packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter/IPython Notebooks
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sqlite
+
+# PyInstaller folders
+build/
+dist/
+*.spec

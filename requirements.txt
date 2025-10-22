@@ -1,0 +1,6 @@
+# requirements.txt
+# Tkinter is usually included with Python, but explicitly listing other dependencies.
+
+# Tkinter is part of the standard library, but if running in some environments (like headless Linux or minimal Python installs), 
+# it might need separate installation (e.g., 'sudo apt install python3-tk').
+# This project relies only on standard library modules: tkinter, math, re.
